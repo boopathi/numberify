@@ -3,7 +3,7 @@ package main
 import (
   "os"
   "fmt"
-  "github.com/boopathi/numberify"
+  "github.com/boopathi/numberify/numberify"
   "github.com/codegangsta/cli"
 )
 
