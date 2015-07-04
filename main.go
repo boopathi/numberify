@@ -5,10 +5,19 @@ import (
   "fmt"
   "github.com/boopathi/numberify/numberify"
   "github.com/codegangsta/cli"
+  "bufio"
 )
 
 func Action(c *cli.Context) {
-  fmt.Println(numberify.Numberify("Text to check with a \"quot\""))
+  reader := bufio.NewReader(os.Stdin)
+
+  for {
+    line, err := reader.ReadString('\n')
+    if err != nil {
+      break
+    }
+    fmt.Println(numberify.Numberify(string(line)))
+  }
 }
 
 func main() {
