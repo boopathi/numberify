@@ -13,3 +13,21 @@ to
 ```
 A q3k b3n f1x j3s o2r t1e "l2y" d1g.
 ```
+
+## Install
+
+```sh
+$ go get github.com/boopathi/numberify
+```
+
+## Usage
+
+```
+$ cat MyText.txt | numberify
+```
+
+or
+
+```
+$ numberify < my_awesome_text.txt
+```
