@@ -14,6 +14,10 @@ to
 A q3k b3n f1x j3s o2r t1e "l2y" d1g.
 ```
 
+## Wanna check live demo ?
+
+http://play.golang.org/p/MWbO_-ps8U
+
 ## Install
 
 ```sh
